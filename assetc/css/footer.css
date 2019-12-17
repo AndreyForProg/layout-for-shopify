@@ -1,0 +1,122 @@
+footer {
+  font-family: nowregular,Arial,Helvetica,sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3% 10%;
+}
+.footer-nav_item {
+  width: 33.3%;
+}
+.footer-nav_item:nth-child(2) {
+  border-right: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+}
+.footer-nav_item li {
+  list-style-type: none;
+}
+.footer-nav_tittle {
+  color: #000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  /* фрифт моно */
+  font-family: sans-serif;
+}
+.get_updates {
+  /* фрифт моно */
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.footer-email {
+  display: flex;
+  align-items: center;
+
+}
+.footer-email-inp{
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  padding: 10px 9px;
+  width: 60%;
+  color: #222;
+  font-size: 14px;
+}
+.footer-email-btn {
+  background: #e99da1;
+  color: #fff;
+  padding: 10px 25px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border: none;
+  margin-left: 10%;
+  cursor: pointer;
+}
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.socialLinks-item {
+  margin-right: 4%;
+}
+.socialLinks-item svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #4f4f4f;
+}
+.socialLinks-item:hover svg {
+  fill: #a5a5a5;
+}
+.footer-links {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: nowmedium;
+}
+.footer-links ul li a{
+  color: #000;
+  margin-bottom: 20px;
+}
+.footer-links ul li a:hover {
+  color: #4f4f4f;
+}
+/* 2 sectuin */
+.footer-info {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-info-title {
+  width: 100%;
+  background: #f6f6f6;
+  text-align: center;
+  padding: 15px;
+}
+.footer-info-title a {
+  color: #000100;
+  font-size: 14px;
+  font-family: nowmedium;
+  text-transform: uppercase;
+}
+.footer-info-title a:nth-child(2) {
+  padding: 0 5px;
+}
+.footer-info-text {
+  margin: 2% 0 2% 0;
+  line-height: 1.5rem;
+  color: #4f4f4f;
+  text-indent: 2%;
+}
+.footer-info_last-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-info_last-item {
+  color: #000;
+}
