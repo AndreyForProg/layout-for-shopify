@@ -1,5 +1,5 @@
 footer {
-  font-family: nowregular,Arial,Helvetica,sans-serif;
+  font-family: 'nowregular',Arial,Helvetica,sans-serif;
   box-sizing: border-box;
 }
 a {
@@ -9,7 +9,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 3% 10%;
+  margin: 3% 0;
 }
 .footer-nav_item {
   width: 33.3%;
@@ -23,15 +23,15 @@ a {
 }
 .footer-nav_tittle {
   color: #000;
-  font-size: 1rem;
   text-transform: uppercase;
-  /* фрифт моно */
-  font-family: sans-serif;
+  letter-spacing: .25px;
+  font-size: 18px;
+  font-family: 'nowbold';
 }
 .get_updates {
-  /* фрифт моно */
-  font-family: sans-serif;
-  font-size: 15px;
+  font-family: 'nowregular';
+  font-size: initial;
+  color: #6b6b6b;
 }
 .footer-email {
   display: flex;
@@ -44,14 +44,15 @@ a {
   padding: 10px 9px;
   width: 60%;
   color: #222;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .footer-email-btn {
   background: #e99da1;
   color: #fff;
-  padding: 10px 25px;
-  font-family: sans-serif;
-  font-size: 16px;
+  padding: 4px 25px;
+  font-family: 'nowregular';
+  font-weight: bold;
+  font-size: initial;
   border: none;
   margin-left: 10%;
   cursor: pointer;
@@ -74,9 +75,9 @@ a {
 }
 .footer-links {
   text-align: center;
-  font-size: 1rem;
+  font-size: large;
   text-transform: uppercase;
-  font-family: nowmedium;
+  font-family: 'nowmedium';
 }
 .footer-links ul li a{
   color: #000;
@@ -85,9 +86,8 @@ a {
 .footer-links ul li a:hover {
   color: #4f4f4f;
 }
-/* 2 sectuin */
+/* 2 section */
 .footer-info {
-  width: 80%;
   margin: 0 auto;
 }
 .footer-info-title {
@@ -98,18 +98,22 @@ a {
 }
 .footer-info-title a {
   color: #000100;
-  font-size: 14px;
-  font-family: nowmedium;
+  font-size: 18px;
+  font-family: 'nowmedium';
   text-transform: uppercase;
+  letter-spacing: .25px;
 }
 .footer-info-title a:nth-child(2) {
   padding: 0 5px;
 }
 .footer-info-text {
-  margin: 2% 0 2% 0;
+  font-family: 'nowmedium';
+  margin: 2% 0 1% 0;
   line-height: 1.5rem;
   color: #4f4f4f;
+  letter-spacing: .25px;
   text-indent: 2%;
+  font-size: large;
 }
 .footer-info_last-item {
   display: flex;

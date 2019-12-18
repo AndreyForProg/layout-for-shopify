@@ -10,10 +10,10 @@
 
 @font-face{
     font-family: 'nowregular';
-url('../fonts/nowregular/nowregular.eot'),
-url('../fonts/nowregular/nowregular.woff') format('woff'),
-url('../fonts/nowregular/nowregular.ttf') format('truetype'),
-url('../fonts/nowregular/nowregular.otf') format('OpenType');
+    url('../fonts/nowregular/nowregular.eot'),
+    url('../fonts/nowregular/nowregular.woff') format('woff'),
+    url('../fonts/nowregular/nowregular.ttf') format('truetype'),
+    url('../fonts/nowregular/nowregular.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
