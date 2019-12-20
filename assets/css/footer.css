@@ -1,6 +1,7 @@
 footer {
   font-family: 'nowregular',Arial,Helvetica,sans-serif;
   box-sizing: border-box;
+  margin-bottom: 5%;
 }
 a {
   text-decoration: none;
@@ -9,7 +10,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 3% 0;
+  margin: 3% 0 5%;
+  padding-top: 5%;
+  border-top: 1px solid #e4e4e4;
 }
 .footer-nav_item {
   width: 33.3%;
@@ -25,13 +28,15 @@ a {
   color: #000;
   text-transform: uppercase;
   letter-spacing: .25px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'nowbold';
+  margin: 13px 0 11px;
 }
 .get_updates {
   font-family: 'nowregular';
-  font-size: initial;
+  font-size: 13px;
   color: #6b6b6b;
+  margin-bottom: 21px;
 }
 .footer-email {
   display: flex;
@@ -44,17 +49,17 @@ a {
   padding: 10px 9px;
   width: 60%;
   color: #222;
-  font-size: 1rem;
+  font-size: 14px;
 }
 .footer-email-btn {
   background: #e99da1;
   color: #fff;
-  padding: 4px 25px;
+  padding: 10px 20px;
   font-family: 'nowregular';
   font-weight: bold;
-  font-size: initial;
+  font-size: 14px;
   border: none;
-  margin-left: 10%;
+  margin-left: 12%;
   cursor: pointer;
 }
 .socialLinks {
@@ -66,8 +71,8 @@ a {
   margin-right: 4%;
 }
 .socialLinks-item svg{
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 21px;
+  height: 21px;
   fill: #4f4f4f;
 }
 .socialLinks-item:hover svg {
@@ -75,17 +80,20 @@ a {
 }
 .footer-links {
   text-align: center;
-  font-size: large;
+  font-size: 15px;
   text-transform: uppercase;
   font-family: 'nowmedium';
 }
+.footer-links ul li {
+  margin: 4% 0;
+}
 .footer-links ul li a{
   color: #000;
-  margin-bottom: 20px;
 }
 .footer-links ul li a:hover {
   color: #4f4f4f;
 }
+
 /* 2 section */
 .footer-info {
   margin: 0 auto;
@@ -98,7 +106,7 @@ a {
 }
 .footer-info-title a {
   color: #000100;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'nowmedium';
   text-transform: uppercase;
   letter-spacing: .25px;
@@ -107,20 +115,118 @@ a {
   padding: 0 5px;
 }
 .footer-info-text {
-  font-family: 'nowmedium';
-  margin: 2% 0 1% 0;
+  margin: 2% 0 2% 0;
   line-height: 1.5rem;
   color: #4f4f4f;
   letter-spacing: .25px;
   text-indent: 2%;
-  font-size: large;
+  font-size: 13px;
+  text-align: center;
 }
 .footer-info_last-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-.footer-info_last-item {
   color: #000;
+}
+.footer-info_last-item p{
+  font-size: 14px;
+}
+.mobile-footer-item, .mobile-footer-nav_tittle {
+  display: none;
+}
+
+/* mobile */
+@media (max-width:768px) {
+  .footer-nav_tittle, .get_updates, .footer-email, .footer-mobile, .footer-info-title, .footer-amg-pay {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+  text-align: center;
+  }
+  .footer-nav {
+    display: block;
+  }
+  .socialLinks {
+    justify-content: center;
+  }
+  .socialLinks-item {
+    margin-right: 2%;
+    margin-bottom: 5%;
+  }
+  .socialLinks-item:last-child {
+    margin-right: 0;
+  }
+  .mobile-footer-item {
+    display: block;
+    background: #e8e8e8;
+    padding: 10px 0;
+  }
+  .mobile-footer-nav_tittle {
+    display: block;
+  }
+  .mobile-footer-item h5 {
+    letter-spacing: .25px;
+    font-size: 18px;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family: 'nowmedium';
+  }
+  .mobile-footer-item h5 span {
+    color: #474747;
+    font-size: 16px;
+  }
+  .mobile-footer-email {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-footer-email-inp {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    height: 38px;
+    font-weight: 700;
+    border: 0 none;
+    text-transform: uppercase;
+    padding: 0 50px 0 10px;
+    width: 35%;
+  }
+  .mobile-footer-email-btn {
+    background: #61a0a6 url(../images/footerArrow.webp) no-repeat scroll center center;
+    border: medium none;
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px;
+    height: 38px;
+    cursor: pointer;
+  }
+  .footer-nav_item {
+    width: 100%;
+  }
+  .mobile-footer-links {
+    background: #e8e8e8;
+    font-size: 14px;
+    padding: 15px 0 25px 0;
+  }
+  .mobile-footer-links ul li {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #000100;
+  }
+  .footer-info_last-item  {
+    display: block;
+    font-family: 'nowmedium';
+    margin-bottom: 5%;
+  }
+  .mobile-footer-nav_tittle {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .25px;
+    font-size: 15px;
+    font-family: 'nowbold';
+    margin: 13px 0 11px;
+  }
 }
