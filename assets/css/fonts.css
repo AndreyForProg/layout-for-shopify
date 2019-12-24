@@ -1,19 +1,19 @@
 @font-face{
     font-family: 'nowmedium';
-    url('../fonts/nowmedium/nowmedium.eot'),
-    url('../fonts/nowmedium/nowmedium.woff') format('woff'),
-    url('../fonts/nowmedium/nowmedium.ttf') format('truetype'),
-    url('../fonts/nowmedium/nowmedium.otf') format('OpenType');
+    src: url('../fonts/nowmedium/nowmedium.eot'),
+        url('../fonts/nowmedium/nowmedium.woff') format('woff'),
+        url('../fonts/nowmedium/nowmedium.ttf') format('truetype'),
+        url('../fonts/nowmedium/nowmedium.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family: 'nowregular';
-url('../fonts/nowregular/nowregular.eot'),
-url('../fonts/nowregular/nowregular.woff') format('woff'),
-url('../fonts/nowregular/nowregular.ttf') format('truetype'),
-url('../fonts/nowregular/nowregular.otf') format('OpenType');
+    src: url('../fonts/nowregular/nowregular.eot'),
+        url('../fonts/nowregular/nowregular.woff') format('woff'),
+        url('../fonts/nowregular/nowregular.ttf') format('truetype'),
+        url('../fonts/nowregular/nowregular.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
