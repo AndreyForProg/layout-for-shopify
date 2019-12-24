@@ -17,3 +17,23 @@ url('../fonts/nowregular/nowregular.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face{
+    font-family: 'helvetica';
+url('../fonts/helvetica/helvetica.eot'),
+url('../fonts/helvetica/helvetica.woff') format('woff'),
+url('../fonts/helvetica/helvetica.ttf') format('truetype'),
+url('../fonts/helvetica/helvetica.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'butlerlight';
+url('../fonts/butlerlight/butlerlight.eot'),
+url('../fonts/butlerlight/butlerlight.woff') format('woff'),
+url('../fonts/butlerlight/butlerlight.ttf') format('truetype'),
+url('../fonts/butlerlight/butlerlight.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
