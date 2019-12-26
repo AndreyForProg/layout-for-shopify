@@ -15,15 +15,8 @@ body {
     align-items: center;
 }
 
-.header_vault {
-    display: flex;
-}
-
 .header_vault-text {
     text-decoration: none;
-    transition: 0.5s;
-    display: block;
-    cursor: pointer;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 11px 0 11px;
@@ -36,11 +29,6 @@ body {
                                    50%,rgba(221,162,165,1) 82%);
 }
 
-.header_vault-text:hover {
-    transition: 0.5s;
-    transform: scale(1.05);
-}
-
 .header_vault-text span {
     background: url(../images/sleekvault-cycle.webp) no-repeat;
     background-position: 6px 5px;
@@ -48,9 +36,7 @@ body {
     text-transform: uppercase;
 }
 
-.header_vault-sing {
-    display: block;
-    transition: 0.5s;
+.header_vault-sing{
     text-decoration: none;
     background: #F5E3E4;
     border-bottom-right-radius: 20px;
@@ -60,11 +46,6 @@ body {
     color: #dda2a5;
     font-weight: 500;
     font-family: 'nowmedium', sans-serif;
-}
-
-.header_vault-sing:hover {
-    transition: 0.5s;
-    transform: scale(1.2);
 }
 
 .header_text {
@@ -182,217 +163,4 @@ body {
 .header_link-gifts a {
     padding-left: 8px;
     color: #ea9fa3!important;
-}
-
-.header_section {
-    display: none;
-    /*width: 100%;*/
-    background: #fff;
-    padding: 10px 0 100px 0;
-}
-
-.header_section-product {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header_product {
-    margin: 0 16px 0 0;
-    padding: 0;
-}
-
-.header_product-main {
-    list-style: none;
-    letter-spacing: 2px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    cursor: pointer;
-}
-
-.header_product-main a {
-    font-size: 16px;
-    font-weight: 400;
-    color: #4f4f4f;
-    font-family: 'helvetica', sans-serif;
-    text-decoration: none;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.header_product-main a:hover {
-    color: #e79aa0;
-    border-bottom: 1px solid #e79aa0;
-}
-
-.header_subproduct {
-    opacity: 0;
-    padding: 0;
-    margin: 0 50px 0 0;
-}
-
-.header_subproduct-main {
-    list-style: none;
-    cursor: pointer;
-    text-transform: capitalize;
-    padding-bottom: 20px;
-}
-
-.header_subproduct-main a {
-    color: #e79aa0;
-    letter-spacing: 2px;
-    font-size: 15px;
-    font-family: 'helvetica', sans-serif;
-    text-decoration: none;
-}
-
-.header_seller-headline {
-    text-align: left;
-    margin: 0 0 20px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 29px;
-    color: #4d4d4d;
-}
-
-.header_seller-headline span {
-    font-family: 'butlerlight', sans-serif;
-}
-
-.header_seller-product {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header_seller-field {
-    display: flex;
-    flex-direction: column;
-}
-
-.header_seller-img {
-    height: 210px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border: 0;
-    width: auto;
-    max-height: 100%;
-}
-
-.header_seller-item {
-    padding-top: 30px;
-    text-align: center;
-    color: #E99DA1;
-    font-family: 'nowregular', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.header_seller-item p {
-    margin: 0;
-    padding: 0;
-}
-
-/* for mobile */
-/* скрываем чекбокс */
-.menu__box {
-    display: none;
-}
-#menu__toggle {
-    opacity: 0;
-}
-  /* стилизуем кнопку */
-.menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
-    position: relative;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-  /* добавляем "гамбургер" */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #616161;
-}
-
-.menu__btn > span::before {
-    content: '';
-    top: -8px;
-}
-
-.menu__btn > span::after {
-    content: '';
-    top: 8px;
-}
-
-/* контейнер меню */
-.menu__box {
-    display: block;
-    position: absolute;
-    visibility: hidden;
-    top: 0;
-    left: -100%;
-    width: 300px;
-    height: 100%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    text-align: center;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-}
-  /* элементы меню */
-.menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: #333;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-}
-.menu__item:hover {
-    background-color: #CFD8DC;
-}
-
-/* скрываем - показываем меню */
-#menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    left: 0;
-}
-
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-    transition-duration: .25s;
-}
-.menu__box {
-    transition-duration: .25s;
-}
-.menu__item {
-    transition-duration: .25s;
 }
