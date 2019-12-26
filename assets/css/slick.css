@@ -89,7 +89,7 @@
 .slick-slide img
 {
     display: block;
-    width: inherit;
+    /* width: inherit; */
 }
 .slick-slide.slick-loading img
 {
