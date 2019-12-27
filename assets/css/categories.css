@@ -5,8 +5,8 @@
 }
 .wraper {
   margin: 0 auto;
-  width: 1190px;
-  max-width: 100%;
+  width: 90%;
+  max-width: 1200px;
   font-family: 'nowregular',Arial,Helvetica,sans-serif;
 }
 li {
@@ -40,8 +40,8 @@ li {
   flex-direction: row;
 }
 .filters {
-  width: 290px;
-  max-width: 25%;
+  width: 25%;
+  max-width: 290px;
   display: flex;
   flex-direction: column;
   padding-top: 5%;
@@ -134,8 +134,8 @@ li {
 }
 
 .categorie-goods {
-  width: 870px;
-  max-width: 75%;
+  width: 75%;
+  max-width: 870px;
   display: flex;
   flex-direction: column;
   padding-left: 1%;
@@ -178,12 +178,12 @@ li {
   font-family: unset;
   font-weight: bolder;
 }
-.some {
+.some_sort {
   height: 100%;
   display: flex;
   flex-direction: row;
 }
-.some select {
+.some_sort select {
   height: 100%;
   border: 1px solid #dfdfdf;
   border-radius: 0 4px 4px 0;
@@ -200,7 +200,7 @@ li {
   font-family: 'nowregular';
   font-size: 14px;
 }
-.some select:active, .some select:focus{
+.some_sort select:active, .some_sort select:focus{
   outline:none
 }
 .pagination {
@@ -235,12 +235,11 @@ li {
   width: 870px;
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(217px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(385px, 1fr));
   margin-bottom: 4%;
 }
 .good {
-  width: 217px;
   height: 385px;
   padding: 0 10.5px 10px 10.5px;
   display: flex;
@@ -327,6 +326,9 @@ li {
 
 /* for mobile  */
 @media (max-width:768px) {
+  .wraper {
+    margin-top: 16%;
+  }
   .sort {
     margin-bottom: 0;
   }
