@@ -124,4 +124,15 @@ body {
 }
 
 
+@media (max-width:768px) {
+    .slider_banners.desctop {
+        display: none;
+    }
+
+    .slider_banners.mobile {
+        display: block;
+    }
+}
+
+
 
