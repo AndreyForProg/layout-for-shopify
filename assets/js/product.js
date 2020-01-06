@@ -42,3 +42,5 @@ reviewsTitle.addEventListener('click', () => {
   reviewsAsk.style.display = "none";
 
 });
+
+$('.easyzoom').easyZoom();
