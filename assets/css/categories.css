@@ -348,4 +348,7 @@ li {
     width: 100%;
     justify-content: space-around;
   }
+  .breadcrumb {
+    display: none;
+  }
 }

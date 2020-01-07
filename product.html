@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="">
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <title>Document</title>
+    <script src='./assets/js/jquery.zoom.js'></script>
 </head>
 <body>
 <ul class="breadcrumb">
@@ -89,7 +90,7 @@
         <p class="product-brand_num">SKU:
             <span> amz-wel-kit320</span>
         </p>
-        <a><img class="product-referFriend" src="./assets/images/raf_link.png"></a>
+        <a class="product-referFriend_mob"><img class="product-referFriend" src="./assets/images/raf_link.png"></a>
         <div class="quantity">
             <p class="product-quant-item">$28.47</p>
             <div class="product-quantity">
@@ -100,7 +101,16 @@
             </div>
             <button class="quant_btn">Add to Cart</button>
         </div>
-        <div class="product-Wishlist"><a href="./">Add to Wishlist</a></div>
+        <div style="display: flex; justify-content: space-between;">
+            <div class="product-Wishlist">
+                <div class="product-soon">
+                    <p class="product-soon_order">ORDER SOON</p>
+                    <p class="product-soon_stock">1<span> Left in Stock</span></p>
+                </div>
+                <a href="./">Add to Wishlist</a>
+            </div>
+        </div>
+
         <p class="product-item">SIZE <span> 10.1 oz / 6.7 oz</span></p>
     </div>
 </div>

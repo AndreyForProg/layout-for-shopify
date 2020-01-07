@@ -417,3 +417,85 @@
 .active_item {
     border-bottom: 1px solid #cacee0;
 }
+
+.product-soon {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .product-left {
+        width: 100%;
+        margin-right: 0;
+        border-right: 1px solid #e4e4e4;
+        border-top: 1px solid #e4e4e4;
+    }
+    .product-right {
+        width: 100%;
+        border-left: none;
+        padding-left: 0;
+    }
+    .product-wella_view {
+        display: block;
+        text-align: center;
+    }
+    .product-wella_brand {
+        text-align: center;
+    }
+    .product-rating {
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .product-brand_num{
+        text-align: center;
+    }
+
+    .product-referFriend_mob {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-referFriend {
+        width: 58%;
+    }
+    .product-soon {
+        margin-top: 4px;
+        margin-right: 210px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-soon_order {
+        margin: 0 ;
+        color: #E69EA2;
+        font-size: 16px;
+        font-family: nowbold, sans-serif;
+        font-weight: 700;
+    }
+    .product-soon_stock {
+        font-family: nowregular, sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .product-soon_stock span {
+        text-transform: capitalize;
+        text-align: center;
+        color: #000;
+        font-weight: 400;
+    }
+
+
+}
+
