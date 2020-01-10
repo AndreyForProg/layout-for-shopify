@@ -4,13 +4,20 @@ const headerSubProd = document.querySelector('.header_subproduct')
 const headerProd = document.querySelectorAll('.header_product-main')
 const headerTest = document.querySelector('.header_test')
 const headerSectionProduct = document.querySelector('.header_section-product')
-console.log(headerTest)
 
 for (let i = 0; i<headerLinks.length; i++) {
-  headerLinks[i].addEventListener('mouseover', () => {
-    headerSection.style.display = 'flex'
+  headerLinks[i].addEventListener('mouseover', (e) => {
+    let interval = 0;
+    let timer = setInterval(() => {
+      if (interval == 2) {
+        headerSection.style.display = 'flex'
+        clearInterval(timer)
+      }
+      interval += 1
+    }, 100)
     headerTest.addEventListener('mouseleave', () => {
       headerSection.style.display = 'none'
+      clearInterval(timer)
     })
   })
 }
