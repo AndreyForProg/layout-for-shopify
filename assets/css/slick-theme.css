@@ -64,7 +64,7 @@
 .slick-prev {
     background-image: url("../images/arleft.png");
     background-size: cover;
-    left: 30px;
+    left: 1%;
 }
 
 [dir='rtl'] .slick-prev {
@@ -84,7 +84,7 @@
 .slick-next {
     background-image: url("../images/arright.png");
     background-size: cover;
-    right: 30px;
+    right: 1%;
 }
 
 [dir='rtl'] .slick-next {

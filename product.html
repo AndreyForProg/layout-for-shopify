@@ -7,31 +7,698 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/styles.css" integrity="">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/easyzoom.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.js"></script>
 
-    <title>Document</title>
+
+    <title>Product</title>
 </head>
 <body>
 
-    <div class="product">
-        <div>
-            <div></div>
-            <img style="width: 100px" src="./assets/images/amz-wel-kit320__70003.1551287192.jpg">
+<header class="header">
+    <div class="header_sing">
+        <div class="header_vault">
+            <a href="./" class="header_vault-text">
+                <span>SLEEKVAULT REWARDS</span>
+            </a>
+            <a href="./" class="header_vault-sing">SING IN</a>
+        </div>
+        <div class="header_mid_img">
+            <div class="header_text">
+                <img src="./assets/images/msg-icon.png">
+                <p>GET ON THE LIST</p>
+            </div>
+            <span></span>
+            <img class="header_gif" src="./assets/images/sleekhairmenugif.gif">
+        </div>
+        <div class="header_icon">
+            <img src="./assets/images/help-icon.png">
+            <img src="./assets/images/wishlist-icon.png">
+            <img src="./assets/images/shopping-bag-icon.png">
+        </div>
+    </div>
+    <div class="header_search">
+        <div class="header_input">
+            <input class="header_input-field">
+            <input class="header_input-button">
+        </div>
+        <a href="./"><img src="./assets/images/sleekshop_logo_250x34px_1565895760__32121.original.png"></a>
+        <img src="./assets/images/free-shipping-instore-pickup.jpg">
+    </div>
+
+    <div class="header_test">
+        <div class="header_main-link">
+            <div class="header_link">
+                <a href="./categories.html" class="link">HAIR</a>
+                <a href="./categories.html" class="link">HAIR COLOR</a>
+                <a href="./categories.html" class="link">MAKEUP</a>
+                <a href="./categories.html" class="link">SKIN</a>
+                <a href="./categories.html" class="link">TOOLS</a>
+                <div class="header_link-wellness link">
+                    <img src="./assets/images/welness-icon.png">
+                    <a href="" class="link">WELLNESS</a>
+                </div>
+                <div class="header_link-men link">
+                    <img src="./assets/images/mens-icon.png">
+                    <a href="" class="link">MEN</a>
+                </div>
+                <div class="header_link-gifts link">
+                    <img src="./assets/images/gift-icon.png">
+                    <a href="" class="link">GIFTS</a>
+                </div>
+                <a href="" class="link">BRANDS</a>
+            </div>
         </div>
 
-        <div>
-            <img src="./assets/images/wella_1500588314__65822.original.png">
-            <p></p>
-            <h2></h2>
-            <div>
-                <img src="">
-                <p></p>
+        <div class="header_navigation">
+            <div class="header_section">
+                <div class="header_section-product">
+                    <ul class="header_product">
+                        <li class="header_product-main">
+                            <a href="./">SOME PRODUCT
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header_product-main">
+                            <a href="./">SOME PRODUCT
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header_product-main">
+                            <a href="./">SOME PRODUCT
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header_subproduct">
+                        <li class="header_subproduct-main">
+                            <a href="./" title="Some subproduct">Some subproduct</a>
+                        </li>
+                        <li class="header_subproduct-main">
+                            <a href="./" title="Some subproduct">Some subproduct</a>
+                        </li>
+                        <li class="header_subproduct-main">
+                            <a href="./" title="Some subproduct">Some subproduct</a>
+                        </li>
+                        <li class="header_subproduct-main">
+                            <a href="./" title="Some subproduct">Some subproduct</a>
+                        </li>
+                        <li class="header_subproduct-main">
+                            <a href="./" title="Some subproduct">Some subproduct</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_seller">
+                    <h2 class="header_seller-headline">TOP SELLERS <span>HAIR</span></h2>
+                    <div class="header_seller-product">
+                        <div onclick="location.href='./product.html'" class="header_seller-field">
+                            <img class="header_seller-img"
+                                 src="./assets/images/000_12_of_22__11382.1508871891.190.285.jpg">
+                            <a class="header_seller-item">
+                                <p>Lorem ipsum dolor sit</p>
+                                <p>Lorem ipsum dolor</p>
+                            </a>
+                        </div>
+                        <div onclick="location.href='./product.html'" class="header_seller-field">
+                            <img class="header_seller-img"
+                                 src="./assets/images/sai06-5-1-oz__70998.1558382563.190.285.jpg">
+                            <a class="header_seller-item">
+                                <p>Lorem ipsum dolor sit</p>
+                                <p>Lorem ipsum dolor</p>
+                            </a>
+                        </div>
+                        <div onclick="location.href='./product.html'" class="header_seller-field">
+                            <img class="header_seller-img"
+                                 src="./assets/images/miz28-1-7-oz__73294.1556306978.190.285.jpg">
+                            <a class="header_seller-item">
+                                <p>Lorem ipsum dolor sit</p>
+                                <p>Lorem ipsum dolor</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p></p>
-            <img src="">
-            <div></div>
-            <h4><span></span></h4>
+        </div>
+    </div>
+</header>
+
+<div class="header_mobile">
+    <div class="first-line">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox"/>
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+        </div>
+        <a href="./"><img src="./assets/images/mobilelogosleek.png" class="mobile_logo"></a>
+        <img src="./assets/images/shopping-bag-icon.png">
+    </div>
+    <div class="header_input">
+        <input class="header_input-button">
+        <input class="header_input-field">
+    </div>
+
+    <ul class="header-mobile_link">
+        <li class="mobile_link mobile_link-first">
+            <div class="mobile_link_item">
+                <img src="assets/images/mobnavmen.webp" alt="">
+                <p>Hello, <span>Sign in <img src="assets/images/mobnaviarrow.webp" alt=""></span></p>
+            </div>
+            <div class="mobile_link_item">
+                <img src="assets/images/sleekvault-cycle.webp" alt="">
+                <p class="text_mob">your REWARDS</p>
+            </div>
+        </li>
+        <li class="mobile_link">
+            <a href="./">HAIR
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="mobile_link">
+            <a href="./">HAIR COLOR
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="mobile_link">
+            <a href="./">MAKEUP
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="mobile_link">
+            <img src="./assets/images/welness-icon.png">
+            <a href="./">WELLNESS
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="mobile_link">
+            <img src="./assets/images/mens-icon.png">
+            <a href="./">MEN
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="wraper">
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="./" title="Home">home &nbsp </a></li>
+        <li class="breadcrumb-item"><a href="./"> &nbsp hair &nbsp</a></li>
+        <li class="breadcrumb-item"><a href="./" title="Home"> &nbsp Shampoo &nbsp</a></li>
+        <li class="breadcrumb-item"><a href="./" title="Home"> &nbsp Color Depositing Shampoo &nbsp</a></li>
+        <li class="breadcrumb-item"> &nbsp Wella Invigo Blonde Recharge Shampoo & Cool Blonde Conditioner</li>
+    </ul>
+    <div class="product">
+        <div class="product-left">
+            <div class="field">
+                <div class="product-zoom">
+                    <div class="zoomicon">
+                        <img src="./assets/images/zoomicon.gif">
+                        <p>Zoom</p>
+                    </div>
+                    <a href="./"><img src="./assets/images/wishlist-icon.png"></a>
+                </div>
+                <div class="product-brand easyzoom easyzoom--overlay">
+                    <a href="assets/images/amz-wel-kit320__70003.1551287192.jpg">
+                        <img style="width: 100%;" src="assets/images/amz-wel-kit320__70003.1551287192.jpg">
+                    </a>
+                </div>
+                <div class="product-brand-min">
+                    <img src="./assets/images/amz-wel-kit320__70003.1551287192.jpg">
+                </div>
+            </div>
+            <div class="product-link">
+                <div class="product-link_field">
+
+                    <a class="product-socialLinks-item" title="Connect on facebook" href="#">
+                        <svg viewBox="0 0 32 32" id="icon-facebook">
+                            <path d="M2.428 0.41c-0.936 0-1.695 0.753-1.695 1.682v27.112c0 0.929 0.759 1.682 1.695 1.682h14.709v-11.802h-4.002v-4.599h4.002v-3.392c0-3.936 2.423-6.080 5.961-6.080 1.695 0 3.152 0.125 3.576 0.181v4.114l-2.454 0.001c-1.924 0-2.297 0.907-2.297 2.239v2.937h4.59l-0.598 4.599h-3.992v11.802h7.826c0.936 0 1.695-0.753 1.695-1.682v-27.112c0-0.929-0.759-1.682-1.695-1.682h-27.321z"></path>
+                        </svg>
+                    </a>
+                    <a class="product-socialLinks-item" title="Connect on facebook" href="#">
+                        <svg viewBox="0 0 32 32" id="icon-facebook">
+                            <path d="M0 23.5v-12.406q0.688 0.766 1.578 1.359 5.656 3.844 7.766 5.391 0.891 0.656 1.445 1.023t1.477 0.75 1.719 0.383h0.031q0.797 0 1.719-0.383t1.477-0.75 1.445-1.023q2.656-1.922 7.781-5.391 0.891-0.609 1.563-1.359v12.406q0 1.031-0.734 1.766t-1.766 0.734h-23q-1.031 0-1.766-0.734t-0.734-1.766zM0 6.844q0-1.219 0.648-2.031t1.852-0.812h23q1.016 0 1.758 0.734t0.742 1.766q0 1.234-0.766 2.359t-1.906 1.922q-5.875 4.078-7.313 5.078-0.156 0.109-0.664 0.477t-0.844 0.594-0.812 0.508-0.898 0.422-0.781 0.141h-0.031q-0.359 0-0.781-0.141t-0.898-0.422-0.812-0.508-0.844-0.594-0.664-0.477q-1.422-1-4.094-2.852t-3.203-2.227q-0.969-0.656-1.828-1.805t-0.859-2.133z"></path>
+                        </svg>
+                    </a>
+                    <a class="product-socialLinks-item" title="Connect on facebook" href="#">
+                        <svg viewBox="0 0 32 32" id="icon-facebook">
+                            <path d="M0 21.5v-6.5q0-1.234 0.883-2.117t2.117-0.883h1v-8.5q0-0.625 0.438-1.062t1.062-0.438h10.5q0.625 0 1.375 0.313t1.188 0.75l2.375 2.375q0.438 0.438 0.75 1.188t0.313 1.375v4h1q1.234 0 2.117 0.883t0.883 2.117v6.5q0 0.203-0.148 0.352t-0.352 0.148h-3.5v2.5q0 0.625-0.438 1.062t-1.062 0.438h-15q-0.625 0-1.062-0.438t-0.438-1.062v-2.5h-3.5q-0.203 0-0.352-0.148t-0.148-0.352zM6 24h14v-4h-14v4zM6 14h14v-6h-2.5q-0.625 0-1.062-0.438t-0.438-1.062v-2.5h-10v10zM22 15q0 0.406 0.297 0.703t0.703 0.297 0.703-0.297 0.297-0.703-0.297-0.703-0.703-0.297-0.703 0.297-0.297 0.703z"></path>
+                        </svg>
+                    </a>
+                    <a class="product-socialLinks-item" title="Connect on instagram" href="#">
+                        <svg viewBox="0 0 43 32" id="icon-twitter">
+                            <path d="M36.575 5.229c1.756-0.952 3.105-2.46 3.74-4.257-1.644 0.882-3.464 1.522-5.402 1.867-1.551-1.495-3.762-2.429-6.209-2.429-4.697 0-8.506 3.445-8.506 7.694 0 0.603 0.075 1.19 0.22 1.753-7.069-0.321-13.337-3.384-17.532-8.039-0.732 1.136-1.152 2.458-1.152 3.868 0 2.669 1.502 5.024 3.784 6.404-1.394-0.040-2.706-0.386-3.853-0.962-0.001 0.032-0.001 0.064-0.001 0.097 0 3.728 2.932 6.837 6.823 7.544-0.714 0.176-1.465 0.27-2.241 0.27-0.548 0-1.081-0.048-1.6-0.138 1.083 3.057 4.224 5.281 7.946 5.343-2.911 2.064-6.579 3.294-10.564 3.294-0.687 0-1.364-0.036-2.029-0.108 3.764 2.183 8.235 3.457 13.039 3.457 15.646 0 24.202-11.724 24.202-21.891 0-0.334-0.008-0.665-0.025-0.995 1.662-1.085 3.104-2.439 4.244-3.982-1.525 0.612-3.165 1.025-4.885 1.211z"></path>
+                        </svg>
+                    </a>
+                    <a class="product-socialLinks-item" title="Connect on facebook" href="#">
+                        <svg viewBox="0 0 32 32" id="icon-facebook">
+                            <path d="M27.2684444,27.2675556 L22.5226667,27.2675556 L22.5226667,19.8408889 C22.5226667,18.0702222 22.4924444,15.792 20.0568889,15.792 C17.5866667,15.792 17.2097778,17.7217778 17.2097778,19.7146667 L17.2097778,27.2675556 L12.4693333,27.2675556 L12.4693333,11.9964444 L17.0186667,11.9964444 L17.0186667,14.0844444 L17.0844444,14.0844444 C17.7173333,12.8835556 19.2657778,11.6177778 21.5742222,11.6177778 C26.3804444,11.6177778 27.2684444,14.7795556 27.2684444,18.8924444 L27.2684444,27.2675556 L27.2684444,27.2675556 Z M7.11822222,9.91022222 C5.59377778,9.91022222 4.36444444,8.67733333 4.36444444,7.15733333 C4.36444444,5.63822222 5.59377778,4.40533333 7.11822222,4.40533333 C8.63644444,4.40533333 9.86844444,5.63822222 9.86844444,7.15733333 C9.86844444,8.67733333 8.63644444,9.91022222 7.11822222,9.91022222 L7.11822222,9.91022222 Z M4.74133333,11.9964444 L9.49244444,11.9964444 L9.49244444,27.2675556 L4.74133333,27.2675556 L4.74133333,11.9964444 Z M29.632,0 L2.36,0 C1.05777778,0 0,1.03288889 0,2.30755556 L0,29.6906667 C0,30.9653333 1.05777778,32 2.36,32 L29.632,32 C30.9368889,32 31.9991111,30.9653333 31.9991111,29.6906667 L31.9991111,2.30755556 C31.9991111,1.03288889 30.9368889,0 29.632,0 L29.632,0 Z"></path>
+                        </svg>
+                    </a>
+                    <a class="product-socialLinks-item" title="Connect on pinterest" href="#">
+                        <svg viewBox="0 0 34 32" id="icon-pinterest">
+                            <path d="M1.356 15.647c0 6.24 3.781 11.6 9.192 13.957-0.043-1.064-0.008-2.341 0.267-3.499 0.295-1.237 1.976-8.303 1.976-8.303s-0.491-0.973-0.491-2.411c0-2.258 1.319-3.945 2.962-3.945 1.397 0 2.071 1.041 2.071 2.288 0 1.393-0.895 3.477-1.356 5.408-0.385 1.616 0.817 2.935 2.424 2.935 2.909 0 4.869-3.708 4.869-8.101 0-3.34-2.267-5.839-6.39-5.839-4.658 0-7.56 3.447-7.56 7.297 0 1.328 0.394 2.264 1.012 2.989 0.284 0.333 0.324 0.467 0.221 0.849-0.074 0.28-0.243 0.955-0.313 1.223-0.102 0.386-0.417 0.524-0.769 0.381-2.145-0.869-3.145-3.201-3.145-5.822 0-4.329 3.679-9.519 10.975-9.519 5.863 0 9.721 4.21 9.721 8.729 0 5.978-3.349 10.443-8.285 10.443-1.658 0-3.217-0.889-3.751-1.899 0 0-0.892 3.511-1.080 4.189-0.325 1.175-0.963 2.349-1.546 3.264 1.381 0.405 2.84 0.625 4.352 0.625 8.48 0 15.355-6.822 15.355-15.238s-6.876-15.238-15.355-15.238c-8.48 0-15.356 6.822-15.356 15.238z"></path>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="product-right">
+            <a href="./">
+                <img class="product-wella_img" src="./assets/images/wella_1500588314__65822.original.png">
+            </a>
+            <p class="product-wella_view">
+                <a href="./">View all products by
+                    <span>Wella</span>
+                </a>
+            </p>
+
+            <h2 class="product-wella_brand">Wella Invigo Blonde Recharge Shampoo & Cool Blonde Conditioner (W/ Sleekshop
+                Comb) - 10.1 oz / 6.7 oz</h2>
+            <div class="product-rating">
+                <img src="./assets/images/no-rating.png">
+                <a> 0 Reviews </a>
+            </div>
+            <p class="product-brand_num">SKU:
+                <span> amz-wel-kit320</span>
+            </p>
+            <a class="product-referFriend_mob">
+                <img class="product-referFriend" src="./assets/images/raf_link.png">
+            </a>
+
+            <div class="quantity quantity_mob">
+                <p class="product-quant-item">$28.47</p>
+                <div class="quantity-field">
+                    <div class="product-quantity">
+                        <p class="qty">Qty</p>
+                        <span class="product-quant_btn" style="border-right: none;" onclick="changeQuantity()">-</span>
+                        <input type="text" disabled id="quantityField" class="product-quantinput" value="1">
+                        <span class="product-quant_btn" style="border-left: none;" onclick="changeQuantity()">+</span>
+                    </div>
+                    <button class="quant_btn">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-Wishlist">
+                <a href="./">Add to Wishlist</a>
+            </div>
+
+            <p class="product-item">SIZE <span> 10.1 oz / 6.7 oz</span></p>
+        </div>
+    </div>
+    <div class="product-descript">
+        <div class="product-descript_tabs">
+            <a class="product-tabs_item" href="./" title="Description">Description</a>
+            <div class="product-tabs"></div>
+            <div class="border_tabs"></div>
+        </div>
+        <p class="product-descript-headline">10.1 oz / 6.7 oz</p>
+        <div class="product-descript_item">
+            <p class="product-descript_text">What it is:</p>
+            <ul class="product-descript_marking">
+                <li>Wella Invigo Blonde Recharge Cool Blonde Refreshing Shampoo</li>
+                <li>Wella Invigo Blonde Recharge Cool Color Refreshing Conditioner</li>
+                <li>SleekShop Steel Pin Tail Comb - Black</li>
+            </ul>
+        </div>
+        <div class="descript_item">
+            <p class="descript_text">What it is:</p>
+            <ul class="descript_marking">
+                <li>Wella INVIGO Blonde Recharge Color Refreshing Shampoo, for cool blonde tones refreshes and maintains
+                    the brightness and vibrancy of natural or highlighted blondes.
+                </li>
+                <li>Wella INVIGO Blonde Recharge Color Refreshing Conditioner, for cool blonde tones, helps to fight
+                    brass. Refreshes and maintains the multidimensional color of blonde tones, leaving hair intensively
+                    conditioned.
+                </li>
+            </ul>
+            <ul class="descript_marking-mob">
+                <li> Wella INVIGO Blonde Recharge Color Refreshing Shampoo, for cool blonde tones refreshes and
+                    maintains the brightness and vibrancy of natural or highlighted blondes. Wella INVIGO Blonde
+                    Recharge Color Refreshing Conditioner, for cool blonde tones, helps to fight brass. Refreshes and
+                    maintains the multidimensional color of blonde tones, leaving hair intensively conditioned.
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+    <!-- products slider ----------------------------------------------   -->
+    <!-- desc ------------------>
+    <div class="products_block">
+        <div class="products_block-head">
+            <img class="products_block-headImg" src="./assets/images/boughtheading.png" alt="">
+            <button onclick="location.href='./categories.html'" class="view_all">View All</button>
+        </div>
+        <div class="slider_content desctop">
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_1.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">It's a 10 Ten</p>
+                    <p class="products_item-name">It's a 10 Blow Dry Miracle Glossing Glaze Conditioner</p>
+                    <p class="products_item-price">$25.96</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_2.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Davines</p>
+                    <p class="products_item-name">Davines Naturaltech Rebalancing Shampoo</p>
+                    <p class="products_item-price">$55.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_3.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Arimino</p>
+                    <p class="products_item-name">Arimino BS Styling Wax</p>
+                    <p class="products_item-price">$18.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_4.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Joico</p>
+                    <p class="products_item-name">Joico Color Intensity Love Aura Hair Color</p>
+                    <p class="products_item-price">$9.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_5.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Matrix</p>
+                    <p class="products_item-name">Matrix Biolage HydraSource Hydra-Seal Spray For Dry Hair</p>
+                    <p class="products_item-price">$17.00</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_1.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">It's a 10 Ten</p>
+                    <p class="products_item-name">It's a 10 Blow Dry Miracle Glossing Glaze Conditioner</p>
+                    <p class="products_item-price">$25.96</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_2.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Davines</p>
+                    <p class="products_item-name">Davines Naturaltech Rebalancing Shampoo</p>
+                    <p class="products_item-price">$55.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_3.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Arimino</p>
+                    <p class="products_item-name">Arimino BS Styling Wax</p>
+                    <p class="products_item-price">$18.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_4.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Joico</p>
+                    <p class="products_item-name">Joico Color Intensity Love Aura Hair Color</p>
+                    <p class="products_item-price">$9.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_5.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Matrix</p>
+                    <p class="products_item-name">Matrix Biolage HydraSource Dewy Moisture Mist</p>
+                    <p class="products_item-price">$17.00</p>
+                </div>
+            </div>
+
         </div>
     </div>
 
+    <!-- mob ------------------->
+    <div class="products_blockmob">
+        <div class="products_blockmob-head">
+            <div class="products_blockmob-title">Bought also Bought</div>
+            <button onclick="location.href='./categories.html'" class="view_all">View All</button>
+        </div>
+        <div class="slider_content mobile">
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_1.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">It's a 10 Ten</p>
+                    <p class="products_item-name">It's a 10 Blow Dry Miracle Glossing Glaze Conditioner</p>
+                    <p class="products_item-price">$25.96</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_2.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Davines</p>
+                    <p class="products_item-name">Davines Naturaltech Rebalancing Shampoo</p>
+                    <p class="products_item-price">$55.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_3.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Arimino</p>
+                    <p class="products_item-name">Arimino BS Styling Wax</p>
+                    <p class="products_item-price">$18.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_4.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Joico</p>
+                    <p class="products_item-name">Joico Color Intensity Love Aura Hair Color</p>
+                    <p class="products_item-price">$9.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_5.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Matrix</p>
+                    <p class="products_item-name">Matrix Biolage HydraSource Hydra-Seal Spray For Dry Hair</p>
+                    <p class="products_item-price">$17.00</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_1.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">It's a 10 Ten</p>
+                    <p class="products_item-name">It's a 10 Blow Dry Miracle Glossing Glaze Conditioner</p>
+                    <p class="products_item-price">$25.96</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_2.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Davines</p>
+                    <p class="products_item-name">Davines Naturaltech Rebalancing Shampoo</p>
+                    <p class="products_item-price">$55.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_3.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Arimino</p>
+                    <p class="products_item-name">Arimino BS Styling Wax</p>
+                    <p class="products_item-price">$18.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_4.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Joico</p>
+                    <p class="products_item-name">Joico Color Intensity Love Aura Hair Color</p>
+                    <p class="products_item-price">$9.99</p>
+                </div>
+            </div>
+            <div class="products_item" onclick="location.href='./product.html'">
+                <div class="products_item-pic">
+                    <img class="products_item-img" src="./assets/images/product_5.jpg" alt="">
+                </div>
+                <div class="products_item-descr">
+                    <p class="products_item-title">Matrix</p>
+                    <p class="products_item-name">Matrix Biolage HydraSource Dewy Moisture Mist</p>
+                    <p class="products_item-price">$17.00</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end products slider ----------------------------------------------   -->
+
+    <div class="product-reviews">
+        <div class="product-descript_tabs">
+            <a class="product-tabs_title" title="Product Reviews" id="reviewsTitle">Product Reviews</a>
+            <a class="product-tabs product-tabs_mob" id="reviewsTabs">PRODUCT QUESTIONS</a>
+            <div class="border_tabs"></div>
+        </div>
+
+        <!-- mobile tabs -->
+        <div class="product-descript_tabs_mob">
+            <a class="product-tabs_title_mob active_mob_tab" title="Product Reviews" id="reviewsTitle_mob">Product
+                Reviews</a>
+            <a class="product-tabs_title_mob" id="reviewsTabs_mob">PRODUCT QUESTIONS</a>
+            <div class="border_tabs"></div>
+        </div>
+        <!-- end mobile tabs -->
+        <div class="reviews_field">
+            <div class="product-reviews_field" id="reviewsFild">
+                <p class="product-reviews_item">Be the First to Write a Review</p>
+                <button class="product-reviews_btn">Write a Review</button>
+            </div>
+        </div>
+
+        <div class="reviews_field">
+            <div class="product-reviews_ask" id="reviewsAsk">
+                <p class="product-reviews_item">Be the first to Ask a Question</p>
+                <button class="product-reviews_btn">Ask a Question</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <section class="footer-nav">
+
+            <div class="footer-nav_item">
+                <h5 class="footer-nav_tittle">SUBSCRIBE TO OUR NEWSLETTER</h5>
+                <p class="get_updates">Get the latest updates on new products and upcoming sales</p>
+                <div class="footer-email">
+                    <input type="email" class="footer-email-inp" placeholder="Your email">
+                    <button class="footer-email-btn">Sign Up</button>
+                </div>
+                <h5 class="footer-nav_tittle">CONNECT WITH US</h5>
+
+                <!-- for mobile -->
+                <div class="mobile-footer-item">
+                    <h5>$10 OFF<span> YOUR FIRST $50 ORDER</span></h5>
+                    <div class="mobile-footer-email">
+                        <input type="email" class="mobile-footer-email-inp" placeholder="enter email address">
+                        <button class="mobile-footer-email-btn"></button>
+                    </div>
+                </div>
+                <h5 class="mobile-footer-nav_tittle">Let's connect!</h5>
+                <!-- end for mobile -->
+
+                <div class="socialLinks">
+
+                    <a class="socialLinks-item" title="Connect on instagram" href="#">
+                        <svg viewBox="0 0 32 32" id="icon-instagram">
+                            <path d="M25.522709,13.5369502 C25.7256898,14.3248434 25.8455558,15.1480745 25.8455558,15.9992932 C25.8455558,21.4379334 21.4376507,25.8455558 15.9998586,25.8455558 C10.5623493,25.8455558 6.15416148,21.4379334 6.15416148,15.9992932 C6.15416148,15.1480745 6.27459295,14.3248434 6.4775737,13.5369502 L3.6915357,13.5369502 L3.6915357,27.0764447 C3.6915357,27.7552145 4.24280653,28.3062027 4.92355534,28.3062027 L27.0764447,28.3062027 C27.7571935,28.3062027 28.3084643,27.7552145 28.3084643,27.0764447 L28.3084643,13.5369502 L25.522709,13.5369502 Z M27.0764447,3.6915357 L23.384909,3.6915357 C22.7050083,3.6915357 22.1543028,4.24280653 22.1543028,4.92214183 L22.1543028,8.61509104 C22.1543028,9.29442633 22.7050083,9.84569717 23.384909,9.84569717 L27.0764447,9.84569717 C27.7571935,9.84569717 28.3084643,9.29442633 28.3084643,8.61509104 L28.3084643,4.92214183 C28.3084643,4.24280653 27.7571935,3.6915357 27.0764447,3.6915357 Z M9.84597988,15.9992932 C9.84597988,19.3976659 12.6009206,22.1537374 15.9998586,22.1537374 C19.3987967,22.1537374 22.1543028,19.3976659 22.1543028,15.9992932 C22.1543028,12.6003551 19.3987967,9.84569717 15.9998586,9.84569717 C12.6009206,9.84569717 9.84597988,12.6003551 9.84597988,15.9992932 Z M3.6915357,31.9997173 C1.65296441,31.9997173 0,30.3461875 0,28.3062027 L0,3.6915357 C0,1.6526817 1.65296441,0 3.6915357,0 L28.3084643,0 C30.3473183,0 32,1.6526817 32,3.6915357 L32,28.3062027 C32,30.3461875 30.3473183,31.9997173 28.3084643,31.9997173 L3.6915357,31.9997173 Z"></path>
+                        </svg>
+                    </a>
+                    <a class="socialLinks-item" title="Connect on facebook" href="#">
+                        <svg viewBox="0 0 32 32" id="icon-facebook">
+                            <path d="M2.428 0.41c-0.936 0-1.695 0.753-1.695 1.682v27.112c0 0.929 0.759 1.682 1.695 1.682h14.709v-11.802h-4.002v-4.599h4.002v-3.392c0-3.936 2.423-6.080 5.961-6.080 1.695 0 3.152 0.125 3.576 0.181v4.114l-2.454 0.001c-1.924 0-2.297 0.907-2.297 2.239v2.937h4.59l-0.598 4.599h-3.992v11.802h7.826c0.936 0 1.695-0.753 1.695-1.682v-27.112c0-0.929-0.759-1.682-1.695-1.682h-27.321z"></path>
+                        </svg>
+                    </a>
+                    <a class="socialLinks-item" title="Connect on pinterest" href="#">
+                        <svg viewBox="0 0 34 32" id="icon-pinterest">
+                            <path d="M1.356 15.647c0 6.24 3.781 11.6 9.192 13.957-0.043-1.064-0.008-2.341 0.267-3.499 0.295-1.237 1.976-8.303 1.976-8.303s-0.491-0.973-0.491-2.411c0-2.258 1.319-3.945 2.962-3.945 1.397 0 2.071 1.041 2.071 2.288 0 1.393-0.895 3.477-1.356 5.408-0.385 1.616 0.817 2.935 2.424 2.935 2.909 0 4.869-3.708 4.869-8.101 0-3.34-2.267-5.839-6.39-5.839-4.658 0-7.56 3.447-7.56 7.297 0 1.328 0.394 2.264 1.012 2.989 0.284 0.333 0.324 0.467 0.221 0.849-0.074 0.28-0.243 0.955-0.313 1.223-0.102 0.386-0.417 0.524-0.769 0.381-2.145-0.869-3.145-3.201-3.145-5.822 0-4.329 3.679-9.519 10.975-9.519 5.863 0 9.721 4.21 9.721 8.729 0 5.978-3.349 10.443-8.285 10.443-1.658 0-3.217-0.889-3.751-1.899 0 0-0.892 3.511-1.080 4.189-0.325 1.175-0.963 2.349-1.546 3.264 1.381 0.405 2.84 0.625 4.352 0.625 8.48 0 15.355-6.822 15.355-15.238s-6.876-15.238-15.355-15.238c-8.48 0-15.356 6.822-15.356 15.238z"></path>
+                        </svg>
+                    </a>
+                    <a class="socialLinks-item" title="Connect on instagram" href="#">
+                        <svg viewBox="0 0 43 32" id="icon-twitter">
+                            <path d="M36.575 5.229c1.756-0.952 3.105-2.46 3.74-4.257-1.644 0.882-3.464 1.522-5.402 1.867-1.551-1.495-3.762-2.429-6.209-2.429-4.697 0-8.506 3.445-8.506 7.694 0 0.603 0.075 1.19 0.22 1.753-7.069-0.321-13.337-3.384-17.532-8.039-0.732 1.136-1.152 2.458-1.152 3.868 0 2.669 1.502 5.024 3.784 6.404-1.394-0.040-2.706-0.386-3.853-0.962-0.001 0.032-0.001 0.064-0.001 0.097 0 3.728 2.932 6.837 6.823 7.544-0.714 0.176-1.465 0.27-2.241 0.27-0.548 0-1.081-0.048-1.6-0.138 1.083 3.057 4.224 5.281 7.946 5.343-2.911 2.064-6.579 3.294-10.564 3.294-0.687 0-1.364-0.036-2.029-0.108 3.764 2.183 8.235 3.457 13.039 3.457 15.646 0 24.202-11.724 24.202-21.891 0-0.334-0.008-0.665-0.025-0.995 1.662-1.085 3.104-2.439 4.244-3.982-1.525 0.612-3.165 1.025-4.885 1.211z"></path>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="footer-nav_item footer-links mobile-footer-links">
+                <ul>
+                    <li><a href="#">SOME TITLE</a></li>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    <li><a href="#">SOME TITLEorno</a></li>
+                    <li><a href="#">SOME TITsdfsdLE</a></li>
+                    <li><a href="#">SOME TfE</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav_item footer-links footer-mobile">
+                <ul>
+                    <li><a href="#">SOME TITLE</a></li>
+                    <li><a href="#">SOME TITLE</a></li>
+                    <li><a href="#">SOME TITLE</a></li>
+                    <li><a href="#">SOME TITLE</a></li>
+                    <li><a href="#">SOME TITLE</a></li>
+                    <li><a href="#">SOME TITLE</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="footer-info">
+
+            <div class="footer-info-title">
+                <a href="#" title="TERMS OF USE">TERMS OF USE</a>
+                <a href="#"> | </a>
+                <a href="#" title="PRIVACY POLIcY">PRIVACY POLIcY</a>
+            </div>
+
+            <p class="footer-info-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente soluta adipisci saepe architecto
+                accusamus magni quas temporibus tempora culpa reprehenderit, nulla quidem quod nihil error praesentium
+                est eaque totam iste rem quo aut vero possimus. Labore, aliquid quas. Atque veniam sit minima harum.
+                Pariatur iusto fugit ut corporis culpa.
+            </p>
+
+            <div class="footer-info_last-item">
+                <p>©2019 MyShop.com. All Rights Reserved.</p>
+                <div class="footer-amg-pay">
+                    <img src="assets/images/credit-cards.png" title="credit cards" alt="">
+                    <img src="assets/images/footerImg.jpg" title="credit cards" alt="">
+                </div>
+            </div>
+
+        </section>
+    </footer>
+</div>
+
+<script src="assets/js/header.js"></script>
+<script src="assets/js/easyzoom.js"></script>
+<script type="text/javascript" src="./assets/js/product.js"></script>
 </body>
 </html>

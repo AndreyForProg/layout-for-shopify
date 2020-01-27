@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 #go_top {
     background: url("../images/top-button.png") center center no-repeat;
     position: fixed;
@@ -39,8 +34,12 @@ body {
     padding: 30px 0;
 }
 
+.products_blockmob {
+    display: none;
+}
+
 .products_block-head {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -67,8 +66,13 @@ body {
     color: #fff;
 }
 
-.slider_products {
-    width: 80%;
+.slider_products.desctop {
+    display: block;
+    width: 100%;
+}
+
+.slider_products.mobile {
+    display: none;
 }
 
 .products_item {
@@ -77,6 +81,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.products_item:hover {
+    cursor: pointer;
 }
 
 .products_item-pic {
@@ -88,6 +96,7 @@ body {
 
 .products_item-img {
     max-height: 90%;
+    max-width: 90%;
 }
 
 .products_item-descr {
@@ -108,12 +117,15 @@ body {
 }
 
 .products_item-name {
+    height: 40%;
     margin: 0;
     padding: 0;
     color: #2e2626;
     font-family: 'nowmedium';
+    font-weight: bold;
     text-transform: uppercase;
     font-size: 16px;
+    line-height: 16px;
 }
 
 .products_item-price {
@@ -123,6 +135,58 @@ body {
     font-size: 12px;
 }
 
+@media (max-width:768px) {
+    .slider_banners.desctop {
+        display: none;
+    }
+
+    .slider_banners.mobile {
+        display: block;
+        padding-top: 14vh;
+    }
+
+    .products_blockmob {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .products_block {
+        display: none;
+    }
+
+    .slider_products.mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .slider_products.desctop {
+        display: none;
+    }
+
+    .products_item-descr {
+        height: 60%;
+    }
+
+    .products_blockmob-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products_blockmob-title {
+        color: #2d2d2d;
+        font-family: butlerregular;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 10px 0;
+    }
+
+}
 
 @media (max-width:768px) {
     .slider_banners.desctop {

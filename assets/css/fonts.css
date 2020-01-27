@@ -11,9 +11,9 @@
 @font-face{
     font-family: 'nowregular';
     src: url('../fonts/nowregular/nowregular.eot'),
-        url('../fonts/nowregular/nowregular.woff') format('woff'),
-        url('../fonts/nowregular/nowregular.ttf') format('truetype'),
-        url('../fonts/nowregular/nowregular.otf') format('OpenType');
+    url('../fonts/nowregular/nowregular.woff') format('woff'),
+    url('../fonts/nowregular/nowregular.ttf') format('truetype'),
+    url('../fonts/nowregular/nowregular.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,6 +34,36 @@ url('../fonts/butlerlight/butlerlight.eot'),
 url('../fonts/butlerlight/butlerlight.woff') format('woff'),
 url('../fonts/butlerlight/butlerlight.ttf') format('truetype'),
 url('../fonts/butlerlight/butlerlight.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'nowbold';
+url('../fonts/nowbold/nowbold.eot'),
+url('../fonts/nowbold/nowbold.woff') format('woff'),
+url('../fonts/nowbold/nowbold.ttf') format('truetype'),
+url('../fonts/nowbold/nowbold.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'bebas_neuebold';
+url('../fonts/bebas_neuebold/bebas_neuebold.eot'),
+url('../fonts/bebas_neuebold/bebas_neuebold.woff') format('woff'),
+url('../fonts/bebas_neuebold/bebas_neuebold.ttf') format('truetype'),
+url('../fonts/bebas_neuebold/bebas_neuebold.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'butler';
+url('../fonts/butler/butler.eot'),
+url('../fonts/butler/butler.woff') format('woff'),
+url('../fonts/butler/butler.ttf') format('truetype'),
+url('../fonts/butler/butler.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
