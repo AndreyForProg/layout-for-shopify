@@ -76,5 +76,19 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(backToTop, 0);
     }
   }
+})
 
+// for mobile
+const mobileFilterBtn = document.querySelector('.mobile_filter')
+const mobileFilters = document.querySelector('.filters')
+const mobileBtnBack = document.querySelector('.mobile_Btn')
+
+mobileFilterBtn.addEventListener('click', () => {
+  mobileFilterBtn.classList.toggle('activeFilterMobile')
+  mobileFilters.classList.toggle('filters_left')
+})
+
+mobileBtnBack.addEventListener('click', () => {
+  mobileFilterBtn.classList.toggle('activeFilterMobile')
+  mobileFilters.classList.toggle('filters_left')
 })
